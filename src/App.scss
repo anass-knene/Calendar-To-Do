@@ -1,0 +1,16 @@
+.App {
+  margin-top: 150px;
+  height: 500px;
+  background-color: rgba(32, 32, 32, 0.13);
+  color: rgb(0, 0, 0);
+  box-shadow: 10px 90px 100px 200px rgb(153, 150, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    padding: 20px;
+    box-shadow: 20px 20px 20px black;
+  }
+}
