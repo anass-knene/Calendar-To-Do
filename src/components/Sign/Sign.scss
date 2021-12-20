@@ -1,0 +1,52 @@
+.signDiv {
+  background-color: rgb(0, 0, 0);
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+
+  .signForm {
+    padding: 30px;
+    background-color: #c02030;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    input {
+      margin-top: 60px;
+      background-color: rgb(49, 49, 49);
+      font-size: 1.5rem;
+      padding: 20px;
+      color: white;
+      border-radius: 20px;
+      border: 2px solid rgb(245, 183, 183);
+      box-shadow: 0px 15px 10px rgb(24, 23, 23);
+    }
+    .join {
+      background-image: linear-gradient(
+        to right,
+        #ffffff 0%,
+        #ffffff 51%,
+        #c02030 100%
+      );
+      margin-top: 60px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: rgb(0, 0, 0);
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block;
+      cursor: pointer;
+      &:hover {
+        background-position: right center;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+    }
+  }
+}

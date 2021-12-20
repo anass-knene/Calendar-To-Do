@@ -1,0 +1,65 @@
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+
+  h1 {
+    margin: 10px;
+    padding: 5px;
+  }
+  .Btn-Header {
+    display: flex;
+    .btn-grad {
+      background-image: linear-gradient(
+        to right,
+        #ffffff 0%,
+        #ffffff 51%,
+        #c02030 100%
+      );
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: rgb(0, 0, 0);
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block;
+      cursor: pointer;
+
+      &:hover {
+        background-position: right center;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+    }
+  }
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 51%,
+    #c02030 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    background-position: right center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+}
+.Nav-Pic {
+  margin: 7px;
+}
